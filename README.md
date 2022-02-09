@@ -13,8 +13,10 @@ wifi kali usage (wifite + hashcat + drivers)
 # wifite resources:
 - https://www.youtube.com/watch?v=TDVM-BUChpY&t=4s
 
+# cap2hccapx
+- @TODO
 
-# wifite usage
+# wlan troubleshooting
 - Run kali linux in vmware vm
 
 - Useful commands to locate wlan connection:
@@ -33,7 +35,13 @@ sudo airmon-ng start wlan0
 iwconfig
 sudo airmon-ng
 ```
+
+# Starting with wifite
 - Run wifite
 ```
 sudo wifite
+```
+- Save the hcap file.
+```
+hccapx commands
 ```
