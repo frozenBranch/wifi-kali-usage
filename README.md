@@ -43,8 +43,9 @@ sudo wifite
 ```
 - Save the hcap file.
 ```
-hccapx commands
+sudo cap2hccapx hash.cap hash.hccapx
 ```
+- Retrieve the hccapx hash
 
 - hashcat cracking with dict
 ```
