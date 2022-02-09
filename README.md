@@ -45,3 +45,8 @@ sudo wifite
 ```
 hccapx commands
 ```
+
+- hashcat cracking with dict
+```
+hashcat -m 22000 -a 0 -o cracked.txt hash.hccapx dict.txt 
+```
