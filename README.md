@@ -43,8 +43,8 @@ sudo wifite
 ```
 - Save the hcap file.
 ```
-sudo hcxpcapngtool -o hash.hc22000 -E wordlist hash.cap  
-#https://s77rt.github.io/capJS/
+https://github.com/s77rt/capJS
+https://s77rt.github.io/capJS/
 ```
 - Convert cap file to hc22000 file
 
