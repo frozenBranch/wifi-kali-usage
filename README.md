@@ -50,5 +50,5 @@ sudo hcxpcapngtool -o hash.hc22000 -E wordlist hash.cap
 
 - hashcat cracking with dict
 ```
-hashcat -m 22000 -a 0 -o cracked.txt hash.hccapx dict.txt 
+hashcat -m 22000 -a 0 -o cracked.txt hash.hc22000 dict.txt 
 ```
