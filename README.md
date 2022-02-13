@@ -43,9 +43,10 @@ sudo wifite
 ```
 - Save the hcap file.
 ```
-sudo cap2hccapx hash.cap hash.hccapx
+sudo hcxpcapngtool -o hash.hc22000 -E wordlist hash.cap  
+#https://s77rt.github.io/capJS/
 ```
-- Retrieve the hccapx hash
+- Convert cap file to hc22000 file
 
 - hashcat cracking with dict
 ```
