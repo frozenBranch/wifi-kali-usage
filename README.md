@@ -52,3 +52,8 @@ https://s77rt.github.io/capJS/
 ```
 hashcat -m 22000 -a 0 -o cracked.txt hash.hc22000 dict.txt 
 ```
+
+- hashcat on docker
+```
+docker run -it --gpus=all --rm dizcza/docker-hashcat //bin/bash
+```
